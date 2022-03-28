@@ -16,8 +16,10 @@
     "require": {},
     "extra": {
         "laravel": {
-            "providers": [],
-            "aliases": {}
+            "providers": ["Kolya\\Meta\\MetaServiceProvider"],
+            "aliases": {
+                "Meta": "Kolya\\Meta\\Meta"
+            }
         }
     }
 }
