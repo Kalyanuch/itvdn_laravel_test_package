@@ -1,0 +1,23 @@
+{
+    "name": "kolya/meta",
+    "description": "This is test package for laravel lessons",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kolya\\Meta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shamrylo Mykola",
+            "email": "itlutsk@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    }
+}
